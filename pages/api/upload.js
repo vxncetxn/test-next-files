@@ -19,7 +19,7 @@ export default async (req, res) => {
       console.log("LOOK HERE: ", fields, files);
       //   console.log(files.file.filepath);
       var oldPath = files.file.filepath;
-      var newPath = `./public/images/${fields.handle}/${files.file.originalFilename}`;
+      var newPath = `./images/${fields.handle}/${files.file.originalFilename}`;
       mv(oldPath, newPath, function (err) {});
       res.status(200).json({ fields, files });
     });
