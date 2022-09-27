@@ -11,11 +11,6 @@ export default function IndexPage() {
           </Link>
         </li>
         <li>
-          <Link href="/ssr">
-            <a>SSR</a>
-          </Link>
-        </li>
-        <li>
           <Link href="/ssg">
             <a>SSG</a>
           </Link>
