@@ -49,7 +49,7 @@ export default function Galleries({ handle, images }) {
           <li>
             {/* <img src={`/images/${handle}/${image.path}`} /> */}
             <img
-              src={`http://localhost:3000/api/images/${handle}/${image.path}`}
+              src={`https://test-next-files-53qe.vercel.app/api/images/${handle}/${image.path}`}
             />
           </li>
         ))}
